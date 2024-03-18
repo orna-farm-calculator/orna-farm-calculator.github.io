@@ -1,0 +1,31 @@
+{
+  "name": "ORNA Farm Calculator",
+  "short_name": "Farm Calculator",
+  "description": "ORNA Farm Calculator",
+  "lang": "ru-Ru",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#262626",
+  "theme_color": "#262626",
+  "categories": [
+    "games"
+  ],
+  "icons": [
+    {
+      "src": "/img/bag_of_treats-x64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/img/bag_of_treats-x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/img/bag_of_treats-x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ]
+}
