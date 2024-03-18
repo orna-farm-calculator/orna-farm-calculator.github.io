@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <title>ORNA Farm Calculator</title>
+  <link type="image/png" rel="icon" href="/img/bag_of_treats.png">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h1 class="line">Калькулятор обзора</h1>
+  <div class="block">
+    <div>
+      <h2>Экипировка</h2>
+      <div>
+        <span>Голова:</span>
+        <select class="multiplier-value">
+          <option value="1">Не выбран</option>
+          <option value="1.1">★10 Клобук падших небес</option>
+          <option value="1.1">★10 Шлем падших небес </option>
+          <option value="1.2">★10 Аргосы</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <h2>Расходники</h2>
+      <div>
+        <label>Факел: <input class="multiplier-value" data-value="1.2" type="checkbox"> </label>
+      </div>
+      <div>
+        <label>Дальнозор: <input class="multiplier-value" data-value="1.2" type="checkbox"> </label>
+      </div>
+    </div>
+    <div>
+      <h2>Дальность обзора</h2>
+      <b><span id="viewing-radius-result"></span></b>
+    </div>
+  </div>
+</body>
+
+<script type="module" src="index.js"></script>
+
+</html>

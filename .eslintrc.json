@@ -1,0 +1,11 @@
+{
+  "extends": "@nodutilus/eslint-config/browser.js",
+  "overrides": [
+    {
+      "files": [
+        "test.js"
+      ],
+      "extends": "@nodutilus"
+    }
+  ]
+}

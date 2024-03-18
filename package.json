@@ -1,0 +1,15 @@
+{
+  "name": "orna-farm-calculator.github.io",
+  "license": "Unlicense",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "orna-farm-calculator",
+  "devDependencies": {
+    "@nodutilus/project-config": "2.0.2",
+    "fastify": "4.26.2",
+    "@fastify/static": "7.0.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}

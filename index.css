@@ -1,0 +1,53 @@
+:root {
+  --font-family       : Merriweather, Inter, sans-serif;
+  --main-bg-color     : #262626;
+  --main-color        : #e7e7e7;
+  --lite-padding      : .4rem .6rem;
+  --base-padding      : .6rem .8rem;
+  --border-radius     : .4rem;
+  --block-bg-color    : #1e1e1ecc;
+  --block-border-color: #1c1c1c;
+  --elevation-1       : 0px 3px 1px -2px rgb(var(--ornalogy-shadow-color) / 0.2), 0px 2px 2px 0px rgb(var(--ornalogy-shadow-color) / 0.14), 0px 1px 5px 0px rgb(var(--ornalogy-shadow-color) / 0.12);
+}
+
+html {
+  height             : 100%;
+  width              : 100%;
+  margin             : 0;
+  line-height        : 1.5;
+  box-sizing         : border-box;
+  font-family        : var(--font-family);
+  color              : var(--main-color);
+  background-image   : url(../img/bg.png);
+  background-position: center;
+  background-repeat  : no-repeat;
+  background-color   : var(--main-bg-color);
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing : border-box;
+  user-select: none;
+}
+
+.line {
+  padding: var(--lite-padding);
+  margin : var(--base-padding);
+}
+
+.block {
+  gap           : .5rem;
+  border        : 1px solid;
+  display       : flex;
+  flex-direction: column;
+  align-items   : stretch;
+  padding       : var(--lite-padding);
+  margin        : var(--base-padding);
+  border-radius : var(--border-radius);
+  background    : var(--block-bg-color);
+  border-color  : var(--block-border-color);
+  box-shadow    : var(--elevation-1);
+}
