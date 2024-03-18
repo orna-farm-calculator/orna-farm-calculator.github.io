@@ -6,7 +6,7 @@ const appPort = 8080
 const app = fastify({ logger: { level: 'debug' } })
 
 
-app.register(fastifyStatic, { root: resolve('.'), prefix: '/' })
+app.register(fastifyStatic, { root: resolve('docs'), prefix: '/' })
 
 app.ready(async err => {
   if (err) {
